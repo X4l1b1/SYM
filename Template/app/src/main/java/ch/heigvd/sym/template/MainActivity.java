@@ -35,6 +35,7 @@ import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
+import android.util.Patterns;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -47,8 +48,17 @@ public class MainActivity extends AppCompatActivity {
 
     // GUI elements
 	private EditText email      = null;
+    private EditText passwd     = null;
     private Button   signIn     = null;
 
+
+    private boolean isEmailValid(String email){
+        return !(email == null) && Patterns.EMAIL_ADDRESS.matcher(email).matches();
+    }
+
+    private boolean isPasswdValid(String password){
+        return password.length() > 0;
+    }
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -57,6 +67,7 @@ public class MainActivity extends AppCompatActivity {
 
 		// Link to GUI elements
         this.email      = (EditText) findViewById(R.id.email);
+        this.passwd     = (EditText) findViewById(R.id.passwd);
         this.signIn     = (Button)   findViewById(R.id.buttOk);
 
 		// Then program action associated to "Ok" button
@@ -68,9 +79,18 @@ public class MainActivity extends AppCompatActivity {
 				 * There you have to check out if the email/password
 				 * combination given is valid or not
 				 */
-				String mail = email.getText().toString();
-				String passwd = null; //TODO read password from EditText
-				if (isValid(mail, passwd)) {
+                String mail = email.getText().toString();
+                String pwd = passwd.getText().toString();
+
+                if (!isEmailValid(mail)) {
+                    Toast.makeText(MainActivity.this, "Email incorrect format !", Toast.LENGTH_LONG).show();
+
+                } else {
+                    if (!isPasswdValid(pwd)) {
+                        Toast.makeText(MainActivity.this, "Password empty !", Toast.LENGTH_LONG).show();
+                    } else {
+
+                        if (isValid(mail, pwd)) {
 					/* Ok, valid combination, do something or launch another activity...
 					 * The current activity could be finished, but it is not mandatory.
 					 * To launch activity MyActivity.class, try something like :
@@ -86,13 +106,15 @@ public class MainActivity extends AppCompatActivity {
 					 * If you haven't anything more to do, you may finish()...
 					 * But just display a small message before quitting...
 					 */
-					Toast.makeText(MainActivity.this, getResources().getString(R.string.good), Toast.LENGTH_LONG).show();
-					finish();
-				} else {
-					// Wrong combination, display pop-up dialog and stay on login screen
-					showErrorDialog(mail, passwd);
-				}
-			}
+                            Toast.makeText(MainActivity.this, getResources().getString(R.string.good), Toast.LENGTH_LONG).show();
+                            finish();
+                        } else {
+                            // Wrong combination, display pop-up dialog and stay on login screen
+                            showErrorDialog(mail, pwd);
+                        }
+                    }
+                }
+            }
 			
 		});
 	}
