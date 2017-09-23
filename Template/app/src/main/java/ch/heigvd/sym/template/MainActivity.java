@@ -51,11 +51,12 @@ public class MainActivity extends AppCompatActivity {
     private EditText passwd     = null;
     private Button   signIn     = null;
 
-
+    //Checks email is in valid format : [...]@[...].[...]
     private boolean isEmailValid(String email){
         return !(email == null) && Patterns.EMAIL_ADDRESS.matcher(email).matches();
     }
 
+    //Checks password is in valid format : length > 0
     private boolean isPasswdValid(String password){
         return password.length() > 0;
     }
@@ -65,7 +66,7 @@ public class MainActivity extends AppCompatActivity {
         // Show the welcome screen / login authentication dialog
         setContentView(R.layout.authent);
 
-        // Link to GUI elements
+        // Link to GUI elements -- defined in res/layout/authent.xml
         this.email      = (EditText) findViewById(R.id.email);
         this.passwd     = (EditText) findViewById(R.id.passwd);
         this.signIn     = (Button)   findViewById(R.id.buttOk);
@@ -82,6 +83,10 @@ public class MainActivity extends AppCompatActivity {
                 String mail = email.getText().toString();
                 String pwd = passwd.getText().toString();
 
+                /*
+                 * Format verification for both fields, first email then password
+                 * if format is not valid, it doesn't even check the file for corresponding entries
+                 */
                 if (!isEmailValid(mail)) {
                     Toast.makeText(MainActivity.this, "Email incorrect format !", Toast.LENGTH_LONG).show();
 
