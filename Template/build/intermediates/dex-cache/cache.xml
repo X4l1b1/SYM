@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/home/arthur/Projects/SYM/Template/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="/home/arthur/Projects/SYM/Template/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_2c8cf2ca5e78b8616d21ee3f8d94ad9311f713ca/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/arthur/Projects/SYM/Template/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="ebf1198a9dae99c9027326db1d7a864f73371c10">
+        <dex dex="/home/arthur/Projects/SYM/Template/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_13009c5a530d2603522425c77590ca48201a21bb/classes.dex" />
+    </item>
+
+</items>

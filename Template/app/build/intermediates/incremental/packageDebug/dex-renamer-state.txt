@@ -1,0 +1,7 @@
+#Sat Sep 23 15:58:50 CEST 2017
+base.0=/home/arthur/Projects/SYM/Template/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_13009c5a530d2603522425c77590ca48201a21bb
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=/home/arthur/Projects/SYM/Template/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_2c8cf2ca5e78b8616d21ee3f8d94ad9311f713ca/classes.dex
+base.1=/home/arthur/Projects/SYM/Template/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_2c8cf2ca5e78b8616d21ee3f8d94ad9311f713ca
+file.0=/home/arthur/Projects/SYM/Template/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_13009c5a530d2603522425c77590ca48201a21bb/classes.dex
