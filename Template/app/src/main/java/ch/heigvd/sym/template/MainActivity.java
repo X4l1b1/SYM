@@ -4,13 +4,13 @@
  * Author   : Markus Jaton 2 juillet 2014
  * 			  Fabien Dutoit 20 septembre 2016
  *            IICT / HEIG-VD
- *                                       
+ *
  * mailto:fabien.dutoit@heig-vd.ch
- * 
+ *
  * This piece of code reads a [email_account / password ] combination.
  * It is used as a template project for the SYM module element given at HEIG-VD
  * Target audience : students IL, TS, IE [generally semester 1, third bachelor year]
- *   
+ *
  * THIS SOFTWARE IS PROVIDED "AS IS" AND ANY EXPRESSED OR IMPLIED WARRANTIES,
  * INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY 
  * AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL 
@@ -21,7 +21,7 @@
  * LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING
  * NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS 
  * SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
- * 
+ *
  */
 package ch.heigvd.sym.template;
 
@@ -43,11 +43,11 @@ public class MainActivity extends AppCompatActivity {
     private static final String TAG = MainActivity.class.getSimpleName();
 
     // Just for test purposes : please destroy !
-	private static final String validEmail      = "toto@tutu.com";
-	private static final String validPassword   = "tata";
+    private static final String validEmail      = "toto@tutu.com";
+    private static final String validPassword   = "tata";
 
     // GUI elements
-	private EditText email      = null;
+    private EditText email      = null;
     private EditText passwd     = null;
     private Button   signIn     = null;
 
@@ -59,22 +59,22 @@ public class MainActivity extends AppCompatActivity {
     private boolean isPasswdValid(String password){
         return password.length() > 0;
     }
-	@Override
-	protected void onCreate(Bundle savedInstanceState) {
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-		// Show the welcome screen / login authentication dialog
-		setContentView(R.layout.authent);
+        // Show the welcome screen / login authentication dialog
+        setContentView(R.layout.authent);
 
-		// Link to GUI elements
+        // Link to GUI elements
         this.email      = (EditText) findViewById(R.id.email);
         this.passwd     = (EditText) findViewById(R.id.passwd);
         this.signIn     = (Button)   findViewById(R.id.buttOk);
 
-		// Then program action associated to "Ok" button
-		signIn.setOnClickListener(new OnClickListener(){
+        // Then program action associated to "Ok" button
+        signIn.setOnClickListener(new OnClickListener(){
 
-			@Override
-			public void onClick(View v) {
+            @Override
+            public void onClick(View v) {
 				/*
 				 * There you have to check out if the email/password
 				 * combination given is valid or not
@@ -94,15 +94,15 @@ public class MainActivity extends AppCompatActivity {
 					/* Ok, valid combination, do something or launch another activity...
 					 * The current activity could be finished, but it is not mandatory.
 					 * To launch activity MyActivity.class, try something like :
-					 * 
+					 *
 					 * 			Intent intent = new Intent(this, ch.heigvd.sym.MyActivity.class);
 					 * 			intent.putExtra("emailEntered", mail);
 					 *			intent.putExtra("passwordGiven", passwd);
-					 *			this.startActivity(intent); 
+					 *			this.startActivity(intent);
 					 *
 					 * Alternately, you could also startActivityForResult if you are awaiting a result.
 					 * In the latter case, you have to indicate an int parameter to identify MyActivity
-					 * 
+					 *
 					 * If you haven't anything more to do, you may finish()...
 					 * But just display a small message before quitting...
 					 */
@@ -115,34 +115,34 @@ public class MainActivity extends AppCompatActivity {
                     }
                 }
             }
-			
-		});
-	}
-	
-	private boolean isValid(String mail, String passwd) {
+
+        });
+    }
+
+    private boolean isValid(String mail, String passwd) {
         if(mail == null || passwd == null) {
             Log.w(TAG, "isValid(mail, passwd) - mail and passwd cannot be null !");
             return false;
         }
-		// Return true if combination valid, false otherwise
-		return (mail.equals(validEmail) && passwd.equals(validPassword));
-	}
-	
-	protected void showErrorDialog(String mail, String passwd) {
+        // Return true if combination valid, false otherwise
+        return (mail.equals(validEmail) && passwd.equals(validPassword));
+    }
+
+    protected void showErrorDialog(String mail, String passwd) {
 		/*
 		 * Pop-up dialog to show error
 		 */
-		AlertDialog.Builder alertbd = new AlertDialog.Builder(this);
+        AlertDialog.Builder alertbd = new AlertDialog.Builder(this);
         alertbd.setIcon(android.R.drawable.ic_dialog_alert);
-		alertbd.setTitle(R.string.wronglogin);
-	    alertbd.setMessage(R.string.wrong);
-	    alertbd.setPositiveButton(android.R.string.yes, new DialogInterface.OnClickListener() {
-	        public void onClick(DialogInterface dialog, int which) { 
-	            // we do nothing...
+        alertbd.setTitle(R.string.wronglogin);
+        alertbd.setMessage(R.string.wrong);
+        alertbd.setPositiveButton(android.R.string.yes, new DialogInterface.OnClickListener() {
+            public void onClick(DialogInterface dialog, int which) {
+                // we do nothing...
                 // dialog close automatically
-	        }
-	     });
-	    alertbd.create().show();
-	}
-	
+            }
+        });
+        alertbd.create().show();
+    }
+
 }
