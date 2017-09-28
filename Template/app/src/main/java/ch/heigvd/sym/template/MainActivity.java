@@ -36,6 +36,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 import android.util.Patterns;
+import android.content.Intent;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -51,15 +52,6 @@ public class MainActivity extends AppCompatActivity {
     private EditText passwd     = null;
     private Button   signIn     = null;
 
-    //Checks email is in valid format : [...]@[...].[...]
-    private boolean isEmailValid(String email){
-        return !(email == null) && Patterns.EMAIL_ADDRESS.matcher(email).matches();
-    }
-
-    //Checks password is in valid format : length > 0
-    private boolean isPasswdValid(String password){
-        return password.length() > 0;
-    }
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -100,12 +92,12 @@ public class MainActivity extends AppCompatActivity {
 					 * The current activity could be finished, but it is not mandatory.
 					 * To launch activity MyActivity.class, try something like :
 					 *
-					 * 			Intent intent = new Intent(this, ch.heigvd.sym.MyActivity.class);
-					 * 			intent.putExtra("emailEntered", mail);
-					 *			intent.putExtra("passwordGiven", passwd);
-					 *			this.startActivity(intent);
-					 *
-					 * Alternately, you could also startActivityForResult if you are awaiting a result.
+					  			Intent intent = new Intent(this, ch.heigvd.sym.MyActivity.class);
+					  			intent.putExtra("emailEntered", mail);
+					 			intent.putExtra("passwordGiven", passwd);
+					 			this.startActivity(intent);
+
+					* Alternately, you could also startActivityForResult if you are awaiting a result.
 					 * In the latter case, you have to indicate an int parameter to identify MyActivity
 					 *
 					 * If you haven't anything more to do, you may finish()...
@@ -122,6 +114,16 @@ public class MainActivity extends AppCompatActivity {
             }
 
         });
+    }
+
+    //Checks email is in valid format : [...]@[...].[...]
+    private boolean isEmailValid(String email){
+        return !(email == null) && Patterns.EMAIL_ADDRESS.matcher(email).matches();
+    }
+
+    //Checks password is in valid format : length > 0
+    private boolean isPasswdValid(String password){
+        return password.length() > 0;
     }
 
     private boolean isValid(String mail, String passwd) {

@@ -13,6 +13,8 @@
         <requestFocus />
     </EditText>
 
+    <!-- Added Field to Layout for password entry
+            textPassword as input type to hide characters-->
     <EditText
         android:id="@+id/passwd"
         android:layout_width="match_parent"

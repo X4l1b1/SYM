@@ -44,12 +44,12 @@
         "source": "/home/arthur/.android/build-cache/8629e0ecf556cba358be7bfc80cb026f01928195/output/res/layout/abc_popup_menu_header_item_layout.xml"
     },
     {
-        "merged": "/home/arthur/Projects/SYM/Template/app/build/intermediates/res/merged/debug/layout/select_dialog_multichoice_material.xml",
-        "source": "/home/arthur/.android/build-cache/8629e0ecf556cba358be7bfc80cb026f01928195/output/res/layout/select_dialog_multichoice_material.xml"
-    },
-    {
         "merged": "/home/arthur/Projects/SYM/Template/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_layout.xml",
         "source": "/home/arthur/.android/build-cache/8629e0ecf556cba358be7bfc80cb026f01928195/output/res/layout/abc_list_menu_item_layout.xml"
+    },
+    {
+        "merged": "/home/arthur/Projects/SYM/Template/app/build/intermediates/res/merged/debug/layout/select_dialog_multichoice_material.xml",
+        "source": "/home/arthur/.android/build-cache/8629e0ecf556cba358be7bfc80cb026f01928195/output/res/layout/select_dialog_multichoice_material.xml"
     },
     {
         "merged": "/home/arthur/Projects/SYM/Template/app/build/intermediates/res/merged/debug/layout/notification_media_action.xml",
