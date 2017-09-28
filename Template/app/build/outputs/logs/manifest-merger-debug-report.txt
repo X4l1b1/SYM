@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/arthur/Projects/SYM/Template/app/src/main/AndroidManifest.xml:2:1-20:12
+ADDED from /home/arthur/Projects/SYM/Template/app/src/main/AndroidManifest.xml:2:1-28:12
 	package
 		ADDED from /home/arthur/Projects/SYM/Template/app/src/main/AndroidManifest.xml:3:5-37
 		INJECTED from /home/arthur/Projects/SYM/Template/app/src/main/AndroidManifest.xml
@@ -14,7 +14,7 @@ ADDED from /home/arthur/Projects/SYM/Template/app/src/main/AndroidManifest.xml:2
 		INJECTED from /home/arthur/Projects/SYM/Template/app/src/main/AndroidManifest.xml
 		INJECTED from /home/arthur/Projects/SYM/Template/app/src/main/AndroidManifest.xml
 application
-ADDED from /home/arthur/Projects/SYM/Template/app/src/main/AndroidManifest.xml:5:5-18:19
+ADDED from /home/arthur/Projects/SYM/Template/app/src/main/AndroidManifest.xml:5:5-26:19
 MERGED from [com.android.support:appcompat-v7:26.0.2] /home/arthur/.android/build-cache/8629e0ecf556cba358be7bfc80cb026f01928195/output/AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:support-v4:26.0.2] /home/arthur/.android/build-cache/4e509d1dab336ea8f1316601e21b1d155987bb48/output/AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:support-media-compat:26.0.2] /home/arthur/.android/build-cache/5017b6d3fae34539c28c03d0d648d29dc427973e/output/AndroidManifest.xml:25:5-29:19
@@ -24,6 +24,7 @@ MERGED from [com.android.support:animated-vector-drawable:26.0.2] /home/arthur/.
 MERGED from [com.android.support:support-vector-drawable:26.0.2] /home/arthur/.android/build-cache/354446f4f007de0f4772f0c1f6fe6516ecef5079/output/AndroidManifest.xml:22:5-26:19
 MERGED from [com.android.support:support-core-ui:26.0.2] /home/arthur/.android/build-cache/bbcf990da2b2803d79cc85b26644ab9fa37f9561/output/AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:support-compat:26.0.2] /home/arthur/.android/build-cache/14300fec286bbd339aeb7146cfc1846f5e232d3c/output/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0-beta1] /home/arthur/.android/build-cache/75ba94a99652b17991dd625864858ee1a4f6204c/output/AndroidManifest.xml:9:5-20
 	android:label
 		ADDED from /home/arthur/Projects/SYM/Template/app/src/main/AndroidManifest.xml:8:9-41
 	android:allowBackup
@@ -33,21 +34,33 @@ MERGED from [com.android.support:support-compat:26.0.2] /home/arthur/.android/bu
 	android:theme
 		ADDED from /home/arthur/Projects/SYM/Template/app/src/main/AndroidManifest.xml:9:9-40
 activity#ch.heigvd.sym.template.MainActivity
-ADDED from /home/arthur/Projects/SYM/Template/app/src/main/AndroidManifest.xml:10:9-17:20
+ADDED from /home/arthur/Projects/SYM/Template/app/src/main/AndroidManifest.xml:10:9-18:20
 	android:label
 		ADDED from /home/arthur/Projects/SYM/Template/app/src/main/AndroidManifest.xml:12:13-45
 	android:name
-		ADDED from /home/arthur/Projects/SYM/Template/app/src/main/AndroidManifest.xml:11:13-63
+		ADDED from /home/arthur/Projects/SYM/Template/app/src/main/AndroidManifest.xml:11:13-41
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from /home/arthur/Projects/SYM/Template/app/src/main/AndroidManifest.xml:13:13-16:29
+ADDED from /home/arthur/Projects/SYM/Template/app/src/main/AndroidManifest.xml:13:13-17:29
 action#android.intent.action.MAIN
 ADDED from /home/arthur/Projects/SYM/Template/app/src/main/AndroidManifest.xml:14:17-69
 	android:name
 		ADDED from /home/arthur/Projects/SYM/Template/app/src/main/AndroidManifest.xml:14:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /home/arthur/Projects/SYM/Template/app/src/main/AndroidManifest.xml:15:17-77
+ADDED from /home/arthur/Projects/SYM/Template/app/src/main/AndroidManifest.xml:16:17-77
 	android:name
-		ADDED from /home/arthur/Projects/SYM/Template/app/src/main/AndroidManifest.xml:15:27-74
+		ADDED from /home/arthur/Projects/SYM/Template/app/src/main/AndroidManifest.xml:16:27-74
+activity#ch.heigvd.sym.template.MyActivity
+ADDED from /home/arthur/Projects/SYM/Template/app/src/main/AndroidManifest.xml:19:9-25:20
+	android:parentActivityName
+		ADDED from /home/arthur/Projects/SYM/Template/app/src/main/AndroidManifest.xml:20:13-55
+	android:name
+		ADDED from /home/arthur/Projects/SYM/Template/app/src/main/AndroidManifest.xml:19:19-45
+meta-data#android.support.PARENT_ACTIVITY
+ADDED from /home/arthur/Projects/SYM/Template/app/src/main/AndroidManifest.xml:22:13-24:49
+	android:value
+		ADDED from /home/arthur/Projects/SYM/Template/app/src/main/AndroidManifest.xml:24:17-46
+	android:name
+		ADDED from /home/arthur/Projects/SYM/Template/app/src/main/AndroidManifest.xml:23:17-63
 uses-sdk
 INJECTED from /home/arthur/Projects/SYM/Template/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support:appcompat-v7:26.0.2] /home/arthur/.android/build-cache/8629e0ecf556cba358be7bfc80cb026f01928195/output/AndroidManifest.xml:21:5-23:78
@@ -59,6 +72,7 @@ MERGED from [com.android.support:animated-vector-drawable:26.0.2] /home/arthur/.
 MERGED from [com.android.support:support-vector-drawable:26.0.2] /home/arthur/.android/build-cache/354446f4f007de0f4772f0c1f6fe6516ecef5079/output/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-core-ui:26.0.2] /home/arthur/.android/build-cache/bbcf990da2b2803d79cc85b26644ab9fa37f9561/output/AndroidManifest.xml:21:5-23:58
 MERGED from [com.android.support:support-compat:26.0.2] /home/arthur/.android/build-cache/14300fec286bbd339aeb7146cfc1846f5e232d3c/output/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0-beta1] /home/arthur/.android/build-cache/75ba94a99652b17991dd625864858ee1a4f6204c/output/AndroidManifest.xml:5:5-7:41
 	tools:overrideLibrary
 		ADDED from [com.android.support:appcompat-v7:26.0.2] /home/arthur/.android/build-cache/8629e0ecf556cba358be7bfc80cb026f01928195/output/AndroidManifest.xml:23:9-75
 	android:targetSdkVersion

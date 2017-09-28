@@ -1,11 +1,11 @@
 [
     {
-        "merged": "/home/arthur/Projects/SYM/Template/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_scrubber_track_mtrl_alpha.9.png",
-        "source": "/home/arthur/.android/build-cache/8629e0ecf556cba358be7bfc80cb026f01928195/output/res/drawable-hdpi-v4/abc_scrubber_track_mtrl_alpha.9.png"
-    },
-    {
         "merged": "/home/arthur/Projects/SYM/Template/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_btn_radio_to_on_mtrl_015.png",
         "source": "/home/arthur/.android/build-cache/8629e0ecf556cba358be7bfc80cb026f01928195/output/res/drawable-hdpi-v4/abc_btn_radio_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "/home/arthur/Projects/SYM/Template/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_scrubber_track_mtrl_alpha.9.png",
+        "source": "/home/arthur/.android/build-cache/8629e0ecf556cba358be7bfc80cb026f01928195/output/res/drawable-hdpi-v4/abc_scrubber_track_mtrl_alpha.9.png"
     },
     {
         "merged": "/home/arthur/Projects/SYM/Template/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_ic_star_black_16dp.png",
@@ -64,12 +64,12 @@
         "source": "/home/arthur/.android/build-cache/14300fec286bbd339aeb7146cfc1846f5e232d3c/output/res/drawable-hdpi-v4/notification_bg_low_pressed.9.png"
     },
     {
-        "merged": "/home/arthur/Projects/SYM/Template/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/notification_bg_low_normal.9.png",
-        "source": "/home/arthur/.android/build-cache/14300fec286bbd339aeb7146cfc1846f5e232d3c/output/res/drawable-hdpi-v4/notification_bg_low_normal.9.png"
-    },
-    {
         "merged": "/home/arthur/Projects/SYM/Template/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_spinner_mtrl_am_alpha.9.png",
         "source": "/home/arthur/.android/build-cache/8629e0ecf556cba358be7bfc80cb026f01928195/output/res/drawable-hdpi-v4/abc_spinner_mtrl_am_alpha.9.png"
+    },
+    {
+        "merged": "/home/arthur/Projects/SYM/Template/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/notification_bg_low_normal.9.png",
+        "source": "/home/arthur/.android/build-cache/14300fec286bbd339aeb7146cfc1846f5e232d3c/output/res/drawable-hdpi-v4/notification_bg_low_normal.9.png"
     },
     {
         "merged": "/home/arthur/Projects/SYM/Template/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_textfield_search_default_mtrl_alpha.9.png",

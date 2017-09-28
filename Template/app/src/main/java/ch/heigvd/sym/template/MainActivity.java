@@ -42,10 +42,14 @@ public class MainActivity extends AppCompatActivity {
 
     // For logging purposes
     private static final String TAG = MainActivity.class.getSimpleName();
+    public static final String EXTRA_MESSAGE = "ch.heigvd.sym.template.myapp.MAIL";
 
     // Just for test purposes : please destroy !
-    private static final String validEmail      = "toto@tutu.com";
+    private static final String validEmail      = "a@b.c";
     private static final String validPassword   = "tata";
+    public static String mail;
+    public static String pwd;
+
 
     // GUI elements
     private EditText email      = null;
@@ -72,8 +76,8 @@ public class MainActivity extends AppCompatActivity {
 				 * There you have to check out if the email/password
 				 * combination given is valid or not
 				 */
-                String mail = email.getText().toString();
-                String pwd = passwd.getText().toString();
+                mail = email.getText().toString();
+                pwd = passwd.getText().toString();
 
                 /*
                  * Format verification for both fields, first email then password
@@ -91,13 +95,13 @@ public class MainActivity extends AppCompatActivity {
 					/* Ok, valid combination, do something or launch another activity...
 					 * The current activity could be finished, but it is not mandatory.
 					 * To launch activity MyActivity.class, try something like :
-					 *
-					  			Intent intent = new Intent(this, ch.heigvd.sym.MyActivity.class);
-					  			intent.putExtra("emailEntered", mail);
-					 			intent.putExtra("passwordGiven", passwd);
-					 			this.startActivity(intent);
+					 */
+					  			Intent intent = new Intent(MainActivity.this, ch.heigvd.sym.template.MyActivity.class);
+					  			intent.putExtra(EXTRA_MESSAGE, mail);
+					 		//	intent.putExtra("passwordGiven", pwd);
+					 			MainActivity.this.startActivity(intent);
 
-					* Alternately, you could also startActivityForResult if you are awaiting a result.
+					/* Alternately, you could also startActivityForResult if you are awaiting a result.
 					 * In the latter case, you have to indicate an int parameter to identify MyActivity
 					 *
 					 * If you haven't anything more to do, you may finish()...
