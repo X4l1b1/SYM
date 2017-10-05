@@ -1,5 +1,9 @@
 [
     {
+        "merged": "/Users/pierre-samuelrochat/Documents/HEIG-VD/S5/SYM/lab01/Template/app/build/intermediates/res/merged/debug/layout-v16/notification_template_custom_big.xml",
+        "source": "/Users/pierre-samuelrochat/.android/build-cache/58002b0fe38760cdd2dbaea4566b259c95090593/output/res/layout-v16/notification_template_custom_big.xml"
+    },
+    {
         "merged": "/home/arthur/Projects/SYM/Template/app/build/intermediates/res/merged/debug/layout-v16/notification_template_custom_big.xml",
         "source": "/home/arthur/.android/build-cache/14300fec286bbd339aeb7146cfc1846f5e232d3c/output/res/layout-v16/notification_template_custom_big.xml"
     }

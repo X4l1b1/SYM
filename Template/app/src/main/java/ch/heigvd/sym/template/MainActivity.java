@@ -107,11 +107,13 @@ public class MainActivity extends AppCompatActivity {
 					 * If you haven't anything more to do, you may finish()...
 					 * But just display a small message before quitting...
 					 */
-                            Toast.makeText(MainActivity.this, getResources().getString(R.string.good), Toast.LENGTH_LONG).show();
+                            Toast.makeText(MainActivity.this, getString(R.string.good), Toast.LENGTH_LONG).show();
                             finish();
                         } else {
                             // Wrong combination, display pop-up dialog and stay on login screen
                             showErrorDialog(mail, pwd);
+                            email.setText("");
+                            passwd.setText("");
                         }
                     }
                 }
@@ -145,12 +147,13 @@ public class MainActivity extends AppCompatActivity {
 		 */
         AlertDialog.Builder alertbd = new AlertDialog.Builder(this);
         alertbd.setIcon(android.R.drawable.ic_dialog_alert);
-        alertbd.setTitle(R.string.wronglogin);
-        alertbd.setMessage(R.string.wrong);
+        alertbd.setTitle(getString(R.string.wronglogin));
+        alertbd.setMessage(getString(R.string.wrong));
         alertbd.setPositiveButton(android.R.string.yes, new DialogInterface.OnClickListener() {
             public void onClick(DialogInterface dialog, int which) {
                 // we do nothing...
                 // dialog close automatically
+
             }
         });
         alertbd.create().show();

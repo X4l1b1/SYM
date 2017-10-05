@@ -1,5 +1,9 @@
 [
     {
+        "merged": "/Users/pierre-samuelrochat/Documents/HEIG-VD/S5/SYM/lab01/Template/app/build/intermediates/res/merged/debug/mipmap-mdpi/ic_launcher.png",
+        "source": "/Users/pierre-samuelrochat/Documents/HEIG-VD/S5/SYM/lab01/Template/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+    },
+    {
         "merged": "/home/arthur/Projects/SYM/Template/app/build/intermediates/res/merged/debug/mipmap-mdpi/ic_launcher.png",
         "source": "/home/arthur/Projects/SYM/Template/app/src/main/res/mipmap-mdpi/ic_launcher.png"
     }

@@ -1,5 +1,9 @@
 [
     {
+        "merged": "/Users/pierre-samuelrochat/Documents/HEIG-VD/S5/SYM/lab01/Template/app/build/intermediates/res/merged/debug/drawable-v23/abc_control_background_material.xml",
+        "source": "/Users/pierre-samuelrochat/.android/build-cache/123d2ac89d5ddb9c95cad0bc2bd4a0d77abe54b8/output/res/drawable-v23/abc_control_background_material.xml"
+    },
+    {
         "merged": "/home/arthur/Projects/SYM/Template/app/build/intermediates/res/merged/debug/drawable-v23/abc_control_background_material.xml",
         "source": "/home/arthur/.android/build-cache/8629e0ecf556cba358be7bfc80cb026f01928195/output/res/drawable-v23/abc_control_background_material.xml"
     }

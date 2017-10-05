@@ -12,7 +12,23 @@
         "source": "/home/arthur/.android/build-cache/14300fec286bbd339aeb7146cfc1846f5e232d3c/output/res/drawable-v21/notification_action_background.xml"
     },
     {
+        "merged": "/Users/pierre-samuelrochat/Documents/HEIG-VD/S5/SYM/lab01/Template/app/build/intermediates/res/merged/debug/drawable-v21/abc_btn_colored_material.xml",
+        "source": "/Users/pierre-samuelrochat/.android/build-cache/123d2ac89d5ddb9c95cad0bc2bd4a0d77abe54b8/output/res/drawable-v21/abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "/Users/pierre-samuelrochat/Documents/HEIG-VD/S5/SYM/lab01/Template/app/build/intermediates/res/merged/debug/drawable-v21/abc_action_bar_item_background_material.xml",
+        "source": "/Users/pierre-samuelrochat/.android/build-cache/123d2ac89d5ddb9c95cad0bc2bd4a0d77abe54b8/output/res/drawable-v21/abc_action_bar_item_background_material.xml"
+    },
+    {
+        "merged": "/Users/pierre-samuelrochat/Documents/HEIG-VD/S5/SYM/lab01/Template/app/build/intermediates/res/merged/debug/drawable-v21/abc_edit_text_material.xml",
+        "source": "/Users/pierre-samuelrochat/.android/build-cache/123d2ac89d5ddb9c95cad0bc2bd4a0d77abe54b8/output/res/drawable-v21/abc_edit_text_material.xml"
+    },
+    {
         "merged": "/home/arthur/Projects/SYM/Template/app/build/intermediates/res/merged/debug/drawable-v21/abc_btn_colored_material.xml",
         "source": "/home/arthur/.android/build-cache/8629e0ecf556cba358be7bfc80cb026f01928195/output/res/drawable-v21/abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "/Users/pierre-samuelrochat/Documents/HEIG-VD/S5/SYM/lab01/Template/app/build/intermediates/res/merged/debug/drawable-v21/notification_action_background.xml",
+        "source": "/Users/pierre-samuelrochat/.android/build-cache/58002b0fe38760cdd2dbaea4566b259c95090593/output/res/drawable-v21/notification_action_background.xml"
     }
 ]

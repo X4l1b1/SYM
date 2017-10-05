@@ -1,97 +1,101 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/arthur/Projects/SYM/Template/app/src/main/AndroidManifest.xml:2:1-28:12
+ADDED from /Users/pierre-samuelrochat/Documents/HEIG-VD/S5/SYM/lab01/Template/app/src/main/AndroidManifest.xml:2:1-30:12
 	package
-		ADDED from /home/arthur/Projects/SYM/Template/app/src/main/AndroidManifest.xml:3:5-37
-		INJECTED from /home/arthur/Projects/SYM/Template/app/src/main/AndroidManifest.xml
-		INJECTED from /home/arthur/Projects/SYM/Template/app/src/main/AndroidManifest.xml
+		ADDED from /Users/pierre-samuelrochat/Documents/HEIG-VD/S5/SYM/lab01/Template/app/src/main/AndroidManifest.xml:3:5-37
+		INJECTED from /Users/pierre-samuelrochat/Documents/HEIG-VD/S5/SYM/lab01/Template/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/pierre-samuelrochat/Documents/HEIG-VD/S5/SYM/lab01/Template/app/src/main/AndroidManifest.xml
 	android:versionName
-		INJECTED from /home/arthur/Projects/SYM/Template/app/src/main/AndroidManifest.xml
-		INJECTED from /home/arthur/Projects/SYM/Template/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/pierre-samuelrochat/Documents/HEIG-VD/S5/SYM/lab01/Template/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/pierre-samuelrochat/Documents/HEIG-VD/S5/SYM/lab01/Template/app/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from /home/arthur/Projects/SYM/Template/app/src/main/AndroidManifest.xml:2:11-69
+		ADDED from /Users/pierre-samuelrochat/Documents/HEIG-VD/S5/SYM/lab01/Template/app/src/main/AndroidManifest.xml:2:11-69
 	android:versionCode
-		INJECTED from /home/arthur/Projects/SYM/Template/app/src/main/AndroidManifest.xml
-		INJECTED from /home/arthur/Projects/SYM/Template/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/pierre-samuelrochat/Documents/HEIG-VD/S5/SYM/lab01/Template/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/pierre-samuelrochat/Documents/HEIG-VD/S5/SYM/lab01/Template/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /Users/pierre-samuelrochat/Documents/HEIG-VD/S5/SYM/lab01/Template/app/src/main/AndroidManifest.xml:5:5-80
+	android:name
+		ADDED from /Users/pierre-samuelrochat/Documents/HEIG-VD/S5/SYM/lab01/Template/app/src/main/AndroidManifest.xml:5:22-77
 application
-ADDED from /home/arthur/Projects/SYM/Template/app/src/main/AndroidManifest.xml:5:5-26:19
-MERGED from [com.android.support:appcompat-v7:26.0.2] /home/arthur/.android/build-cache/8629e0ecf556cba358be7bfc80cb026f01928195/output/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-v4:26.0.2] /home/arthur/.android/build-cache/4e509d1dab336ea8f1316601e21b1d155987bb48/output/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-media-compat:26.0.2] /home/arthur/.android/build-cache/5017b6d3fae34539c28c03d0d648d29dc427973e/output/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-fragment:26.0.2] /home/arthur/.android/build-cache/6fb38f158d3fd7d9333dad683607fd8a59c79e11/output/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-core-utils:26.0.2] /home/arthur/.android/build-cache/e7982cc9d4242ea3960c81582ac37250f0ed66a5/output/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:animated-vector-drawable:26.0.2] /home/arthur/.android/build-cache/cddc074f1e72df397105973d56cdabff185c9177/output/AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:support-vector-drawable:26.0.2] /home/arthur/.android/build-cache/354446f4f007de0f4772f0c1f6fe6516ecef5079/output/AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:support-core-ui:26.0.2] /home/arthur/.android/build-cache/bbcf990da2b2803d79cc85b26644ab9fa37f9561/output/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-compat:26.0.2] /home/arthur/.android/build-cache/14300fec286bbd339aeb7146cfc1846f5e232d3c/output/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support.constraint:constraint-layout:1.1.0-beta1] /home/arthur/.android/build-cache/75ba94a99652b17991dd625864858ee1a4f6204c/output/AndroidManifest.xml:9:5-20
+ADDED from /Users/pierre-samuelrochat/Documents/HEIG-VD/S5/SYM/lab01/Template/app/src/main/AndroidManifest.xml:7:5-28:19
+MERGED from [com.android.support:appcompat-v7:26.0.2] /Users/pierre-samuelrochat/.android/build-cache/123d2ac89d5ddb9c95cad0bc2bd4a0d77abe54b8/output/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-v4:26.0.2] /Users/pierre-samuelrochat/.android/build-cache/53dd6f8549536892d7add4c3eb7cc26a4ccaa88b/output/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.0.2] /Users/pierre-samuelrochat/.android/build-cache/9e861a0d89f66519f3c7f4979383a99bdf3694af/output/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.0.2] /Users/pierre-samuelrochat/.android/build-cache/c96637cee71927c690b2ea0923df36b8968fdbcb/output/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.0.2] /Users/pierre-samuelrochat/.android/build-cache/7573f0fd54a5a833ff43237c3d8f1773144cc10f/output/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:animated-vector-drawable:26.0.2] /Users/pierre-samuelrochat/.android/build-cache/60e5ac62e1cba2dbaa1fc10486bc395e140e5c29/output/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.0.2] /Users/pierre-samuelrochat/.android/build-cache/7903e545c8cda39d41f8d31aa3097715b9192f02/output/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-core-ui:26.0.2] /Users/pierre-samuelrochat/.android/build-cache/fca85d90606ed25eb94b88b4f20f0d58d8d913b2/output/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.0.2] /Users/pierre-samuelrochat/.android/build-cache/58002b0fe38760cdd2dbaea4566b259c95090593/output/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0-beta2] /Users/pierre-samuelrochat/.android/build-cache/c9524cd5b6504e40c90ad33af56c71e99b8bf14a/output/AndroidManifest.xml:9:5-20
 	android:label
-		ADDED from /home/arthur/Projects/SYM/Template/app/src/main/AndroidManifest.xml:8:9-41
+		ADDED from /Users/pierre-samuelrochat/Documents/HEIG-VD/S5/SYM/lab01/Template/app/src/main/AndroidManifest.xml:10:9-41
 	android:allowBackup
-		ADDED from /home/arthur/Projects/SYM/Template/app/src/main/AndroidManifest.xml:6:9-35
+		ADDED from /Users/pierre-samuelrochat/Documents/HEIG-VD/S5/SYM/lab01/Template/app/src/main/AndroidManifest.xml:8:9-35
 	android:icon
-		ADDED from /home/arthur/Projects/SYM/Template/app/src/main/AndroidManifest.xml:7:9-43
+		ADDED from /Users/pierre-samuelrochat/Documents/HEIG-VD/S5/SYM/lab01/Template/app/src/main/AndroidManifest.xml:9:9-43
 	android:theme
-		ADDED from /home/arthur/Projects/SYM/Template/app/src/main/AndroidManifest.xml:9:9-40
+		ADDED from /Users/pierre-samuelrochat/Documents/HEIG-VD/S5/SYM/lab01/Template/app/src/main/AndroidManifest.xml:11:9-40
 activity#ch.heigvd.sym.template.MainActivity
-ADDED from /home/arthur/Projects/SYM/Template/app/src/main/AndroidManifest.xml:10:9-18:20
+ADDED from /Users/pierre-samuelrochat/Documents/HEIG-VD/S5/SYM/lab01/Template/app/src/main/AndroidManifest.xml:12:9-20:20
 	android:label
-		ADDED from /home/arthur/Projects/SYM/Template/app/src/main/AndroidManifest.xml:12:13-45
+		ADDED from /Users/pierre-samuelrochat/Documents/HEIG-VD/S5/SYM/lab01/Template/app/src/main/AndroidManifest.xml:14:13-45
 	android:name
-		ADDED from /home/arthur/Projects/SYM/Template/app/src/main/AndroidManifest.xml:11:13-41
+		ADDED from /Users/pierre-samuelrochat/Documents/HEIG-VD/S5/SYM/lab01/Template/app/src/main/AndroidManifest.xml:13:13-41
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from /home/arthur/Projects/SYM/Template/app/src/main/AndroidManifest.xml:13:13-17:29
+ADDED from /Users/pierre-samuelrochat/Documents/HEIG-VD/S5/SYM/lab01/Template/app/src/main/AndroidManifest.xml:15:13-19:29
 action#android.intent.action.MAIN
-ADDED from /home/arthur/Projects/SYM/Template/app/src/main/AndroidManifest.xml:14:17-69
+ADDED from /Users/pierre-samuelrochat/Documents/HEIG-VD/S5/SYM/lab01/Template/app/src/main/AndroidManifest.xml:16:17-69
 	android:name
-		ADDED from /home/arthur/Projects/SYM/Template/app/src/main/AndroidManifest.xml:14:25-66
+		ADDED from /Users/pierre-samuelrochat/Documents/HEIG-VD/S5/SYM/lab01/Template/app/src/main/AndroidManifest.xml:16:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /home/arthur/Projects/SYM/Template/app/src/main/AndroidManifest.xml:16:17-77
+ADDED from /Users/pierre-samuelrochat/Documents/HEIG-VD/S5/SYM/lab01/Template/app/src/main/AndroidManifest.xml:18:17-77
 	android:name
-		ADDED from /home/arthur/Projects/SYM/Template/app/src/main/AndroidManifest.xml:16:27-74
+		ADDED from /Users/pierre-samuelrochat/Documents/HEIG-VD/S5/SYM/lab01/Template/app/src/main/AndroidManifest.xml:18:27-74
 activity#ch.heigvd.sym.template.MyActivity
-ADDED from /home/arthur/Projects/SYM/Template/app/src/main/AndroidManifest.xml:19:9-25:20
+ADDED from /Users/pierre-samuelrochat/Documents/HEIG-VD/S5/SYM/lab01/Template/app/src/main/AndroidManifest.xml:21:9-27:20
 	android:parentActivityName
-		ADDED from /home/arthur/Projects/SYM/Template/app/src/main/AndroidManifest.xml:20:13-55
+		ADDED from /Users/pierre-samuelrochat/Documents/HEIG-VD/S5/SYM/lab01/Template/app/src/main/AndroidManifest.xml:22:13-55
 	android:name
-		ADDED from /home/arthur/Projects/SYM/Template/app/src/main/AndroidManifest.xml:19:19-45
+		ADDED from /Users/pierre-samuelrochat/Documents/HEIG-VD/S5/SYM/lab01/Template/app/src/main/AndroidManifest.xml:21:19-45
 meta-data#android.support.PARENT_ACTIVITY
-ADDED from /home/arthur/Projects/SYM/Template/app/src/main/AndroidManifest.xml:22:13-24:49
+ADDED from /Users/pierre-samuelrochat/Documents/HEIG-VD/S5/SYM/lab01/Template/app/src/main/AndroidManifest.xml:24:13-26:49
 	android:value
-		ADDED from /home/arthur/Projects/SYM/Template/app/src/main/AndroidManifest.xml:24:17-46
+		ADDED from /Users/pierre-samuelrochat/Documents/HEIG-VD/S5/SYM/lab01/Template/app/src/main/AndroidManifest.xml:26:17-46
 	android:name
-		ADDED from /home/arthur/Projects/SYM/Template/app/src/main/AndroidManifest.xml:23:17-63
+		ADDED from /Users/pierre-samuelrochat/Documents/HEIG-VD/S5/SYM/lab01/Template/app/src/main/AndroidManifest.xml:25:17-63
 uses-sdk
-INJECTED from /home/arthur/Projects/SYM/Template/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-MERGED from [com.android.support:appcompat-v7:26.0.2] /home/arthur/.android/build-cache/8629e0ecf556cba358be7bfc80cb026f01928195/output/AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:support-v4:26.0.2] /home/arthur/.android/build-cache/4e509d1dab336ea8f1316601e21b1d155987bb48/output/AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-media-compat:26.0.2] /home/arthur/.android/build-cache/5017b6d3fae34539c28c03d0d648d29dc427973e/output/AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-fragment:26.0.2] /home/arthur/.android/build-cache/6fb38f158d3fd7d9333dad683607fd8a59c79e11/output/AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-core-utils:26.0.2] /home/arthur/.android/build-cache/e7982cc9d4242ea3960c81582ac37250f0ed66a5/output/AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:animated-vector-drawable:26.0.2] /home/arthur/.android/build-cache/cddc074f1e72df397105973d56cdabff185c9177/output/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:26.0.2] /home/arthur/.android/build-cache/354446f4f007de0f4772f0c1f6fe6516ecef5079/output/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:26.0.2] /home/arthur/.android/build-cache/bbcf990da2b2803d79cc85b26644ab9fa37f9561/output/AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-compat:26.0.2] /home/arthur/.android/build-cache/14300fec286bbd339aeb7146cfc1846f5e232d3c/output/AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support.constraint:constraint-layout:1.1.0-beta1] /home/arthur/.android/build-cache/75ba94a99652b17991dd625864858ee1a4f6204c/output/AndroidManifest.xml:5:5-7:41
+INJECTED from /Users/pierre-samuelrochat/Documents/HEIG-VD/S5/SYM/lab01/Template/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:appcompat-v7:26.0.2] /Users/pierre-samuelrochat/.android/build-cache/123d2ac89d5ddb9c95cad0bc2bd4a0d77abe54b8/output/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-v4:26.0.2] /Users/pierre-samuelrochat/.android/build-cache/53dd6f8549536892d7add4c3eb7cc26a4ccaa88b/output/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-media-compat:26.0.2] /Users/pierre-samuelrochat/.android/build-cache/9e861a0d89f66519f3c7f4979383a99bdf3694af/output/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-fragment:26.0.2] /Users/pierre-samuelrochat/.android/build-cache/c96637cee71927c690b2ea0923df36b8968fdbcb/output/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-utils:26.0.2] /Users/pierre-samuelrochat/.android/build-cache/7573f0fd54a5a833ff43237c3d8f1773144cc10f/output/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:animated-vector-drawable:26.0.2] /Users/pierre-samuelrochat/.android/build-cache/60e5ac62e1cba2dbaa1fc10486bc395e140e5c29/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.0.2] /Users/pierre-samuelrochat/.android/build-cache/7903e545c8cda39d41f8d31aa3097715b9192f02/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:26.0.2] /Users/pierre-samuelrochat/.android/build-cache/fca85d90606ed25eb94b88b4f20f0d58d8d913b2/output/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.0.2] /Users/pierre-samuelrochat/.android/build-cache/58002b0fe38760cdd2dbaea4566b259c95090593/output/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0-beta2] /Users/pierre-samuelrochat/.android/build-cache/c9524cd5b6504e40c90ad33af56c71e99b8bf14a/output/AndroidManifest.xml:5:5-7:41
 	tools:overrideLibrary
-		ADDED from [com.android.support:appcompat-v7:26.0.2] /home/arthur/.android/build-cache/8629e0ecf556cba358be7bfc80cb026f01928195/output/AndroidManifest.xml:23:9-75
+		ADDED from [com.android.support:appcompat-v7:26.0.2] /Users/pierre-samuelrochat/.android/build-cache/123d2ac89d5ddb9c95cad0bc2bd4a0d77abe54b8/output/AndroidManifest.xml:23:9-75
 	android:targetSdkVersion
-		INJECTED from /home/arthur/Projects/SYM/Template/app/src/main/AndroidManifest.xml
-		INJECTED from /home/arthur/Projects/SYM/Template/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/pierre-samuelrochat/Documents/HEIG-VD/S5/SYM/lab01/Template/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/pierre-samuelrochat/Documents/HEIG-VD/S5/SYM/lab01/Template/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /home/arthur/Projects/SYM/Template/app/src/main/AndroidManifest.xml
-		INJECTED from /home/arthur/Projects/SYM/Template/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/pierre-samuelrochat/Documents/HEIG-VD/S5/SYM/lab01/Template/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/pierre-samuelrochat/Documents/HEIG-VD/S5/SYM/lab01/Template/app/src/main/AndroidManifest.xml
 meta-data#android.support.VERSION
-ADDED from [com.android.support:appcompat-v7:26.0.2] /home/arthur/.android/build-cache/8629e0ecf556cba358be7bfc80cb026f01928195/output/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-v4:26.0.2] /home/arthur/.android/build-cache/4e509d1dab336ea8f1316601e21b1d155987bb48/output/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-media-compat:26.0.2] /home/arthur/.android/build-cache/5017b6d3fae34539c28c03d0d648d29dc427973e/output/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-fragment:26.0.2] /home/arthur/.android/build-cache/6fb38f158d3fd7d9333dad683607fd8a59c79e11/output/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-core-utils:26.0.2] /home/arthur/.android/build-cache/e7982cc9d4242ea3960c81582ac37250f0ed66a5/output/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:animated-vector-drawable:26.0.2] /home/arthur/.android/build-cache/cddc074f1e72df397105973d56cdabff185c9177/output/AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:support-vector-drawable:26.0.2] /home/arthur/.android/build-cache/354446f4f007de0f4772f0c1f6fe6516ecef5079/output/AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:support-core-ui:26.0.2] /home/arthur/.android/build-cache/bbcf990da2b2803d79cc85b26644ab9fa37f9561/output/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-compat:26.0.2] /home/arthur/.android/build-cache/14300fec286bbd339aeb7146cfc1846f5e232d3c/output/AndroidManifest.xml:26:9-28:38
+ADDED from [com.android.support:appcompat-v7:26.0.2] /Users/pierre-samuelrochat/.android/build-cache/123d2ac89d5ddb9c95cad0bc2bd4a0d77abe54b8/output/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-v4:26.0.2] /Users/pierre-samuelrochat/.android/build-cache/53dd6f8549536892d7add4c3eb7cc26a4ccaa88b/output/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.0.2] /Users/pierre-samuelrochat/.android/build-cache/9e861a0d89f66519f3c7f4979383a99bdf3694af/output/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.0.2] /Users/pierre-samuelrochat/.android/build-cache/c96637cee71927c690b2ea0923df36b8968fdbcb/output/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.0.2] /Users/pierre-samuelrochat/.android/build-cache/7573f0fd54a5a833ff43237c3d8f1773144cc10f/output/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:animated-vector-drawable:26.0.2] /Users/pierre-samuelrochat/.android/build-cache/60e5ac62e1cba2dbaa1fc10486bc395e140e5c29/output/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:26.0.2] /Users/pierre-samuelrochat/.android/build-cache/7903e545c8cda39d41f8d31aa3097715b9192f02/output/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-core-ui:26.0.2] /Users/pierre-samuelrochat/.android/build-cache/fca85d90606ed25eb94b88b4f20f0d58d8d913b2/output/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.0.2] /Users/pierre-samuelrochat/.android/build-cache/58002b0fe38760cdd2dbaea4566b259c95090593/output/AndroidManifest.xml:26:9-28:38
 	android:value
-		ADDED from [com.android.support:appcompat-v7:26.0.2] /home/arthur/.android/build-cache/8629e0ecf556cba358be7bfc80cb026f01928195/output/AndroidManifest.xml:28:13-35
+		ADDED from [com.android.support:appcompat-v7:26.0.2] /Users/pierre-samuelrochat/.android/build-cache/123d2ac89d5ddb9c95cad0bc2bd4a0d77abe54b8/output/AndroidManifest.xml:28:13-35
 	android:name
-		ADDED from [com.android.support:appcompat-v7:26.0.2] /home/arthur/.android/build-cache/8629e0ecf556cba358be7bfc80cb026f01928195/output/AndroidManifest.xml:27:13-51
+		ADDED from [com.android.support:appcompat-v7:26.0.2] /Users/pierre-samuelrochat/.android/build-cache/123d2ac89d5ddb9c95cad0bc2bd4a0d77abe54b8/output/AndroidManifest.xml:27:13-51
