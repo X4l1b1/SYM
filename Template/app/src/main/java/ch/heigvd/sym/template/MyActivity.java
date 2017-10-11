@@ -20,6 +20,7 @@ public class MyActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
 
+        Log.d("LifeCycle", "My Activity onCreate()");
         super.getSupportActionBar().setDisplayHomeAsUpEnabled(false);
         super.onCreate(savedInstanceState);
         // Show the picture
@@ -53,11 +54,43 @@ public class MyActivity extends AppCompatActivity {
 
     }
 
+    @Override
+    public void onRestart() {
+        super.onRestart();
+        Log.d("LifeCycle", "My Activity onRestart()");
+    }
+
+    @Override
+    public void onResume() {
+        super.onResume();
+        Log.d("LifeCycle", "My Activity onResume()");
+    }
+
+    @Override
+    public void onPause() {
+        super.onPause();
+        Log.d("LifeCycle", "My Activity onPause()");
+    }
+
+    @Override
+    public void onStop() {
+        super.onStop();
+        Log.d("LifeCycle", "My Activity onStop()");
+    }
+
+    @Override
+    public void onDestroy() {
+        super.onDestroy();
+        Log.d("LifeCycle", "My Activity onDestroy()");
+    }
+
    /* @Override
     public void onBackPressed() {
         Intent main = new Intent(MyActivity.this, MainActivity.class);
         MyActivity.this.startActivity(main);
         finish();
     }*/
+
+
 }
 

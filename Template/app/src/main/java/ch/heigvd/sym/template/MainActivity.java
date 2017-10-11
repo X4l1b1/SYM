@@ -61,6 +61,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        Log.d("Lifecycle", "MainActivity onCreate()");
         // Show the welcome screen / login authentication dialog
         setContentView(R.layout.authent);
 
@@ -172,6 +173,42 @@ public class MainActivity extends AppCompatActivity {
                 textView.setText(strEditText);
             }
         }
+    }
+
+    @Override
+    public void onStart() {
+        super.onStart();
+        Log.d("Lifecycle", "MainActivity onStart()");
+    }
+
+    @Override
+    public void onRestart() {
+        super.onRestart();
+        Log.d("Lifecycle", "MainActivity onRestart()");
+    }
+
+    @Override
+    public void onResume() {
+        super.onResume();
+        Log.d("Lifecycle", "MainActivity onResume()");
+    }
+
+    @Override
+    public void onPause() {
+        super.onPause();
+        Log.d("Lifecycle", "MainActivity onPause()");
+    }
+
+    @Override
+    public void onStop() {
+        super.onStop();
+        Log.d("Lifecycle", "MainActivity onStop()");
+    }
+
+    @Override
+    public void onDestroy() {
+        super.onDestroy();
+        Log.d("Lifecycle", "MainActivity onDestroy()");
     }
 
 }
