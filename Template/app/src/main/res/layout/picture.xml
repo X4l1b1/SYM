@@ -26,7 +26,15 @@
         android:layout_gravity="center"
         android:layout_weight="0.31" />
 
-
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:paddingTop="100px"
+        android:text="Portrait Mode"
+        android:textSize="50px"
+        />
 </LinearLayout>
 
 

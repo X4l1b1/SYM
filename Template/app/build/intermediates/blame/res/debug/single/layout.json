@@ -20,12 +20,12 @@
         "source": "/home/arthur/.android/build-cache/8629e0ecf556cba358be7bfc80cb026f01928195/output/res/layout/abc_screen_simple.xml"
     },
     {
-        "merged": "/home/arthur/Projects/SYM/Template/app/build/intermediates/res/merged/debug/layout/notification_template_big_media_narrow_custom.xml",
-        "source": "/home/arthur/.android/build-cache/5017b6d3fae34539c28c03d0d648d29dc427973e/output/res/layout/notification_template_big_media_narrow_custom.xml"
-    },
-    {
         "merged": "/Users/pierre-samuelrochat/Documents/HEIG-VD/S5/SYM/lab01/Template/app/build/intermediates/res/merged/debug/layout/notification_template_part_time.xml",
         "source": "/Users/pierre-samuelrochat/.android/build-cache/58002b0fe38760cdd2dbaea4566b259c95090593/output/res/layout/notification_template_part_time.xml"
+    },
+    {
+        "merged": "/home/arthur/Projects/SYM/Template/app/build/intermediates/res/merged/debug/layout/notification_template_big_media_narrow_custom.xml",
+        "source": "/home/arthur/.android/build-cache/5017b6d3fae34539c28c03d0d648d29dc427973e/output/res/layout/notification_template_big_media_narrow_custom.xml"
     },
     {
         "merged": "/home/arthur/Projects/SYM/Template/app/build/intermediates/res/merged/debug/layout/abc_popup_menu_item_layout.xml",
@@ -144,12 +144,12 @@
         "source": "/home/arthur/.android/build-cache/8629e0ecf556cba358be7bfc80cb026f01928195/output/res/layout/abc_expanded_menu_layout.xml"
     },
     {
-        "merged": "/home/arthur/Projects/SYM/Template/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_icon.xml",
-        "source": "/home/arthur/.android/build-cache/8629e0ecf556cba358be7bfc80cb026f01928195/output/res/layout/abc_list_menu_item_icon.xml"
-    },
-    {
         "merged": "/home/arthur/Projects/SYM/Template/app/build/intermediates/res/merged/debug/layout/abc_alert_dialog_title_material.xml",
         "source": "/home/arthur/.android/build-cache/8629e0ecf556cba358be7bfc80cb026f01928195/output/res/layout/abc_alert_dialog_title_material.xml"
+    },
+    {
+        "merged": "/home/arthur/Projects/SYM/Template/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_icon.xml",
+        "source": "/home/arthur/.android/build-cache/8629e0ecf556cba358be7bfc80cb026f01928195/output/res/layout/abc_list_menu_item_icon.xml"
     },
     {
         "merged": "/home/arthur/Projects/SYM/Template/app/build/intermediates/res/merged/debug/layout/abc_action_menu_item_layout.xml",

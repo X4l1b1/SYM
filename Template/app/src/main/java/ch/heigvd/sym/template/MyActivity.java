@@ -4,15 +4,8 @@ import android.content.Intent;
 import android.os.Environment;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.content.DialogInterface;
-import android.support.v7.app.AlertDialog;
 import android.util.Log;
-import android.view.View;
-import android.view.View.OnClickListener;
-import android.widget.Button;
 import android.widget.TextView;
-import android.widget.Toast;
-import android.util.Patterns;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.widget.ImageView;
@@ -23,11 +16,11 @@ public class MyActivity extends AppCompatActivity {
 
     //ImageView       imageView = null;
     private String  pathToPicture = null;
-    private static final String TAG2 = MyActivity.class.getSimpleName();
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+
+        super.getSupportActionBar().setDisplayHomeAsUpEnabled(false);
         super.onCreate(savedInstanceState);
         // Show the picture
         setContentView(R.layout.picture);
@@ -42,19 +35,29 @@ public class MyActivity extends AppCompatActivity {
 
         File dir = Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DOWNLOADS);
 
-            File[] files = dir.listFiles();
+        File[] files = dir.listFiles();
 
-            Log.d("PATH", "PATH: " + dir.getAbsolutePath());
-            for (int i = 0; i < files.length; i++)
-            {
-                Log.d("FILES", "FileName: " + files[i].getName());
-            }
+        Log.d("PATH", "PATH: " + dir.getAbsolutePath());
+        for (int i = 0; i < files.length; i++) {
+            Log.d("FILES", "FileName: " + files[i].getName());
+        }
 
-            Bitmap myBitmap = BitmapFactory.decodeFile(dir.getAbsolutePath() + "/" + files[0].getName());
+        Bitmap myBitmap = BitmapFactory.decodeFile(dir.getAbsolutePath() + "/" + files[0].getName());
 
-            ImageView imageView = findViewById(R.id.imageView);
-            imageView.setImageBitmap(myBitmap);
+        ImageView imageView = findViewById(R.id.imageView);
+        imageView.setImageBitmap(myBitmap);
+
+        Intent intent2 = new Intent();
+        intent2.putExtra("RETURN_VALUE", "Here is a return value");
+        setResult(RESULT_OK, intent2);
 
     }
+
+   /* @Override
+    public void onBackPressed() {
+        Intent main = new Intent(MyActivity.this, MainActivity.class);
+        MyActivity.this.startActivity(main);
+        finish();
+    }*/
 }
 

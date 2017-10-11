@@ -34,6 +34,7 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.TextView;
 import android.widget.Toast;
 import android.util.Patterns;
 import android.content.Intent;
@@ -55,12 +56,15 @@ public class MainActivity extends AppCompatActivity {
     private EditText email      = null;
     private EditText passwd     = null;
     private Button   signIn     = null;
+    private TextView textView   = null;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         // Show the welcome screen / login authentication dialog
         setContentView(R.layout.authent);
+
+        textView = findViewById(R.id.textView);
 
         // Link to GUI elements -- defined in res/layout/authent.xml
         this.email      = (EditText) findViewById(R.id.email);
@@ -84,11 +88,11 @@ public class MainActivity extends AppCompatActivity {
                  * if format is not valid, it doesn't even check the file for corresponding entries
                  */
                 if (!isEmailValid(mail)) {
-                    Toast.makeText(MainActivity.this, "Email incorrect format !", Toast.LENGTH_LONG).show();
+                    Toast.makeText(MainActivity.this, R.string.badMail, Toast.LENGTH_LONG).show();
 
                 } else {
                     if (!isPasswdValid(pwd)) {
-                        Toast.makeText(MainActivity.this, "Password empty !", Toast.LENGTH_LONG).show();
+                        Toast.makeText(MainActivity.this, R.string.emptyPwd, Toast.LENGTH_LONG).show();
                     } else {
 
                         if (isValid(mail, pwd)) {
@@ -99,7 +103,7 @@ public class MainActivity extends AppCompatActivity {
 					  			Intent intent = new Intent(MainActivity.this, ch.heigvd.sym.template.MyActivity.class);
 					  			intent.putExtra(EXTRA_MESSAGE, mail);
 					 		//	intent.putExtra("passwordGiven", pwd);
-					 			MainActivity.this.startActivity(intent);
+					 			MainActivity.this.startActivityForResult(intent, 1);
 
 					/* Alternately, you could also startActivityForResult if you are awaiting a result.
 					 * In the latter case, you have to indicate an int parameter to identify MyActivity
@@ -108,7 +112,7 @@ public class MainActivity extends AppCompatActivity {
 					 * But just display a small message before quitting...
 					 */
                             Toast.makeText(MainActivity.this, getString(R.string.good), Toast.LENGTH_LONG).show();
-                            finish();
+                            //finish();
                         } else {
                             // Wrong combination, display pop-up dialog and stay on login screen
                             showErrorDialog(mail, pwd);
@@ -157,6 +161,17 @@ public class MainActivity extends AppCompatActivity {
             }
         });
         alertbd.create().show();
+    }
+
+    @Override
+    public void onActivityResult(int requestCode, int resultCode, Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
+        if (requestCode == 1) {
+            if(resultCode == RESULT_OK) {
+                String strEditText = data.getStringExtra("RETURN_VALUE");
+                textView.setText(strEditText);
+            }
+        }
     }
 
 }

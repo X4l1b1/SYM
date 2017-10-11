@@ -30,6 +30,16 @@
         android:layout_height="wrap_content"
         android:text="@string/signin" />
 
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:paddingTop="100px"
+        android:text="Waiting for retrun value"
+        android:textSize="50px"
+        />
+
 
 
 </LinearLayout>
