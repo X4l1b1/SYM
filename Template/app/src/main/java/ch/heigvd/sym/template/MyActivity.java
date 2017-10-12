@@ -25,6 +25,7 @@ public class MyActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         // Show the picture
         setContentView(R.layout.picture);
+//      setContentView(R.layout.picture_rel);
 
         // Get the Intent that started this activity and extract the string
         Intent intent = getIntent();
