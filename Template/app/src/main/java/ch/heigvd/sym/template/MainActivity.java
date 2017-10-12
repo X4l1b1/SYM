@@ -103,15 +103,9 @@ public class MainActivity extends AppCompatActivity {
 					 */
 					  			Intent intent = new Intent(MainActivity.this, ch.heigvd.sym.template.MyActivity.class);
 					  			intent.putExtra(EXTRA_MESSAGE, mail);
-					 		//	intent.putExtra("passwordGiven", pwd);
+
 					 			MainActivity.this.startActivityForResult(intent, 1);
 
-					/* Alternately, you could also startActivityForResult if you are awaiting a result.
-					 * In the latter case, you have to indicate an int parameter to identify MyActivity
-					 *
-					 * If you haven't anything more to do, you may finish()...
-					 * But just display a small message before quitting...
-					 */
                             Toast.makeText(MainActivity.this, getString(R.string.good), Toast.LENGTH_LONG).show();
                             //finish();
                         } else {
@@ -137,6 +131,7 @@ public class MainActivity extends AppCompatActivity {
         return password.length() > 0;
     }
 
+    // Checks if mail and password are in the "database"
     private boolean isValid(String mail, String passwd) {
         if(mail == null || passwd == null) {
             Log.w(TAG, "isValid(mail, passwd) - mail and passwd cannot be null !");
@@ -146,6 +141,7 @@ public class MainActivity extends AppCompatActivity {
         return (mail.equals(validEmail) && passwd.equals(validPassword));
     }
 
+    // Creates and display an error dialog
     protected void showErrorDialog(String mail, String passwd) {
 		/*
 		 * Pop-up dialog to show error

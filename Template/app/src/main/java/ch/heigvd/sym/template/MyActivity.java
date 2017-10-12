@@ -35,8 +35,10 @@ public class MyActivity extends AppCompatActivity {
         TextView textView = findViewById(R.id.textView);
         textView.setText(mail);
 
+        // Creates file to contain the image files to be displayed
         File dir = Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DOWNLOADS);
 
+        // Stores all the files' paths
         File[] files = dir.listFiles();
 
         Log.d("PATH", "PATH: " + dir.getAbsolutePath());
@@ -44,11 +46,14 @@ public class MyActivity extends AppCompatActivity {
             Log.d("FILES", "FileName: " + files[i].getName());
         }
 
+        // Bitmap image creation
         Bitmap myBitmap = BitmapFactory.decodeFile(dir.getAbsolutePath() + "/" + files[0].getName());
 
+        // Display image in corresponding view
         ImageView imageView = findViewById(R.id.imageView);
         imageView.setImageBitmap(myBitmap);
 
+        // Creates and set results for MainActivity (caller activity)
         Intent intent2 = new Intent();
         intent2.putExtra("RETURN_VALUE", "Here is a return value");
         setResult(RESULT_OK, intent2);
